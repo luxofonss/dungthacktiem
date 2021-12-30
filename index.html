@@ -230,12 +230,12 @@
                 if (ctx.isPointInPath(bird.options.x + bird.options.width / 2, bird.options.y + bird.options.height / 2)) {//判断鸟的中心点是不是在管道路径上
                     clearInterval(timer);//鸟的中心点在管道路径上就清除定时器
                     console.log(score);//输出分数
-                    alert("您的得分为："+score);
+                    alert("da chet, so diem："+score);
 
                 } else if (bird.options.y + bird.options.height / 2 < 0 || bird.options.y + bird.options.height / 2 > 488) {
                     clearInterval(timer);
                     console.log(score);//输出分数
-                    alert("您的得分为："+score);
+                    alert("da chet, so diem："+score);
 
                 }
                 sc.innerHTML= "您的得分为："+score;
